@@ -1,6 +1,6 @@
 import pyperclip, sys, shelve
 
-SAVE_FILE = shelve.open('/Users/Devin/Desktop/Python Scripts/MULTI_SAVE')
+SAVE_FILE = shelve.open('MULTI_SAVE')
 
 if len(sys.argv) < 2 or len(sys.argv) > 3:
     print('IndexError: IndexError: EXPECTED AT LEAST 1/2 ARG RECEIVED ' + str(len(sys.argv) - 1)+'\n\n')
